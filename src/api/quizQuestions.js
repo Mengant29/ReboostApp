@@ -4,7 +4,7 @@
 var quizQuestions = [
   // question #1
   {
-    question: 'First QuestionI am task oriented in order to achieve certain goals.',
+    question: 'question #1',
     answers: [
       {
         // briggs, color, letter
@@ -23,7 +23,7 @@ var quizQuestions = [
   },
   // question #2
   {
-    question: 'I get bored easily when disscussing abstract concepts.',
+    question: 'question #2',
     answers: [
       {
         // briggs, color, letter
@@ -42,7 +42,7 @@ var quizQuestions = [
   },
   // question #3
   {
-    question: 'I like to try things out myself.',
+    question: 'question #3',
     answers: [
       {
         // briggs, color, letter
@@ -61,7 +61,7 @@ var quizQuestions = [
   },
   // question #4
   {
-    question: "I like to know where I'm going before I leave the house.",
+    question: "question #4",
     answers: [
       {
         // briggs, color, letter
@@ -80,7 +80,7 @@ var quizQuestions = [
   },
   // question #5
   {
-    question: 'I believe there is a logical explanation for everything.',
+    question: 'question #5',
     answers: [
       {
         // briggs, color, letter
@@ -99,7 +99,7 @@ var quizQuestions = [
   },
   // question #6
   {
-    question: 'I tend to keep my social circle small.',
+    question: 'question #6',
     answers: [
       {
         // briggs, color, letter
@@ -118,7 +118,7 @@ var quizQuestions = [
   },
   // question #7
   {
-    question: 'I like to share my ideas with others.',
+    question: 'question #7',
     answers: [
       {
         // briggs, color, letter
@@ -137,7 +137,7 @@ var quizQuestions = [
   },
   // question #8
   {
-    question: 'I enjoy using social media.',
+    question: 'question #8',
     answers: [
       {
         // briggs, color, letter
@@ -156,7 +156,7 @@ var quizQuestions = [
   },
   // question #9
   {
-    question: 'I always express concern for others when making decisions.',
+    question: 'question #9',
     answers: [
       {
         // briggs, color, letter
@@ -175,7 +175,7 @@ var quizQuestions = [
   },
   // question #10
   {
-    question: 'I like to try new things.',
+    question: 'question #10',
     answers: [
       {
         // briggs, color, letter
