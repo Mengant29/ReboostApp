@@ -9,16 +9,44 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: '1'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: '2'
       },
       {
-        type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: ' ',
+        content: '3'
+      },
+      {
+        type: ' ',
+        content: '4'
+      },
+      {
+        type: ' ',
+        content: '5'
+      },
+      {
+        type: ' ',
+        content: '6'
+      },
+      {
+        type: ' ',
+        content: '7'
+      },
+      {
+        type: ' ',
+        content: '8'
+      },
+      {
+        type: ' ',
+        content: '9'
+      },
+      {
+        type: ' ',
+        content: '10'
+      },
     ]
   },
   // question #2

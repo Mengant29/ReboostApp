@@ -51,85 +51,8 @@ const Wrapper = styled.div`
   }
 `
 
-//////////////////////////////////////////////////////
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Slider from '@material-ui/core/Slider';
-import Input from '@material-ui/core/Input';
-import VolumeUp from '@material-ui/icons/VolumeUp';
 
-const useStyles = makeStyles({
-  root: {
-    width: 250,
-  },
-  input: {
-    width: 42,
-  },
-});
-
-export default function InputSlider() {
-  const classes = useStyles();
-  const [value, setValue] = React.useState(5);
-
-  const handleSliderChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  const handleInputChange = (event) => {
-    setValue(event.target.value === '' ? '' : Number(event.target.value));
-  };
-
-  const handleBlur = () => {
-    if (value < 1) {
-      setValue(1);
-    } else if (value > 10) {
-      setValue(10);
-    }
-  };
-
-  return (
-    <div className={classes.root}>
-      <Typography id="input-slider" gutterBottom>
-        Volume
-      </Typography>
-      <Grid container spacing={2} alignItems="center">
-        <Grid item>
-          <VolumeUp />
-        </Grid>
-        <Grid item xs>
-          <Slider
-            value={typeof value === 'number' ? value : 0}
-            onChange={handleSliderChange}
-            aria-labelledby="input-slider"
-          />
-        </Grid>
-        <Grid item>
-          <Input
-            className={classes.input}
-            value={value}
-            margin="dense"
-            onChange={handleInputChange}
-            onBlur={handleBlur}
-            inputProps={{
-              step: 1,
-              min: 1,
-              max: 10,
-              type: 'number',
-              'aria-labelledby': 'input-slider',
-            }}
-          />
-        </Grid>
-      </Grid>
-    </div>
-  );
-}
-
-//////////////////////////////////////////////////////////////////
-
-
-/*const AnswerOption = props => {
+const AnswerOption = props => {
   return (
     <Wrapper>
       <li>
@@ -148,10 +71,9 @@ export default function InputSlider() {
       </li>
     </Wrapper>
   )
-} */
+}
 
-InputSlider.PropTypes = {
-//AnswerOption.PropTypes = {
+AnswerOption.PropTypes = {
   answerType: PropTypes.string.isRequired,
   answerContent: PropTypes.string.isRequired,
   answer: PropTypes.string.isRequired,
