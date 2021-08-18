@@ -1,6 +1,6 @@
 {
-  "name": "personality_test",
-  "version": "0.1.1",
+  "name": "reboost_test",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "animejs": "^2.2.0",
