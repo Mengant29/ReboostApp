@@ -29,7 +29,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://irfanabliz.github.io/personality-test-react",
+  "homepage": "https://mengant29.github.io/ReboostApp",
   "devDependencies": {
     "gh-pages": "^1.0.0"
   }
