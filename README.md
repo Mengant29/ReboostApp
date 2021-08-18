@@ -6,6 +6,6 @@ After I altered it to created this applicaiton.
 
 The design is mainly inspired by this great post from [Lubos in Codepen](https://codepen.io/lmenus/pen/KrEqpG)
 
-[View demo](https://irfanabliz.github.io/personality-test-react/)
+[View demo](https://mengant29.github.io/ReboostApp/)
 
 Created with [Create React App](https://github.com/facebookincubator/create-react-app)
