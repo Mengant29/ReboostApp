@@ -143,13 +143,13 @@ class Question extends Component {
   // ===========================================================================
   setResults(resultColors, resultLetters, resultBriggs) {
     if (resultColors.length >= 1) {
-      this.setState({ resultColors: resultColors[0] })
+      this.setState({ resultColors: resultColors })
     }
     if (resultLetters.length >= 1) {
-      this.setState({ resultLetters: resultLetters[0] })
+      this.setState({ resultLetters: resultLetters })
     }
     if (resultBriggs.length >= 1) {
-      this.setState({ resultBriggs: resultBriggs })
+      this.setState({ resultBriggs: str(resultBriggs) })
     }
   }
 
