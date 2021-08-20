@@ -7,7 +7,7 @@ class Results extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      showColorsResult: false, //true,
+      showColorsResult: true,
       showLettersResult: false,
       showBriggsResult: false
     }
