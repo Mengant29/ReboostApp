@@ -115,7 +115,7 @@ class Question extends Component {
     if (briggsAnswer.J >= briggsAnswer.P) {
       briggsType += 'J'
     } else briggsType += 'P' */
-    return briggsAnswer
+    return String(briggsAnswer)
   }
 
   getColorsResults() {
@@ -124,7 +124,7 @@ class Question extends Component {
     //const answersCountKeysColors = Object.keys(colorsAnswer)
     //const answersCountValuesColors = answersCountKeysColors.map(key => colorsAnswer[key])
     //const maxAnswerCountColors = Math.max.apply(null, answersCountValuesColors)
-    return colorsAnswer
+    return String(colorsAnswer)
     //answersCountKeysColors.filter(key => colorsAnswer[key] === maxAnswerCountColors)
   }
 
@@ -134,7 +134,7 @@ class Question extends Component {
     //const answersCountKeysLetters = Object.keys(lettersAnswer)
     //const answersCountValuesLetters = answersCountKeysLetters.map(key => lettersAnswer[key])
     //const maxAnswerCountLetters = Math.max.apply(null, answersCountValuesLetters)
-    return lettersAnswer
+    return String(lettersAnswer)
     //answersCountKeysLetters.filter(key => lettersAnswer[key] === maxAnswerCountLetters)
   }
 
@@ -149,7 +149,7 @@ class Question extends Component {
       this.setState({ resultLetters: resultLetters })
     }
     if (resultBriggs.length >= 1) {
-      this.setState({ resultBriggs: str(resultBriggs) })
+      this.setState({ resultBriggs: resultBriggs })
     }
   }
 
