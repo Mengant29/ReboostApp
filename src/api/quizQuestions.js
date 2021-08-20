@@ -4,222 +4,484 @@
 var quizQuestions = [
   // question #1
   {
-    question: 'question #1',
+    question: 'axe #1',
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Brown,D',
+        //physique, mental, environnement
+        type: '1,0,0',
         content: '1'
       },
       {
-        type: ' ',
+        type: '2,0,0',
         content: '2'
       },
       {
-        type: ' ',
+        type: '3,0,0',
         content: '3'
       },
       {
-        type: ' ',
+        type: '4,0,0',
         content: '4'
       },
       {
-        type: ' ',
+        type: '5,0,0',
         content: '5'
       },
       {
-        type: ' ',
+        type: '6,0,0',
         content: '6'
       },
       {
-        type: ' ',
+        type: '7,0,0',
         content: '7'
       },
       {
-        type: ' ',
+        type: '8,0,0',
         content: '8'
       },
       {
-        type: ' ',
+        type: '9,0,0',
         content: '9'
       },
       {
-        type: ' ',
+        type: '10,0,0',
         content: '10'
       },
     ]
   },
   // question #2
   {
-    question: 'question #2',
+    question: 'axe #2',
     answers: [
       {
         // briggs, color, letter
-        type: 'N,Green,C',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '1,0,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '2,0,0',
+        content: '2'
       },
       {
-        type: 'N,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '3,0,0',
+        content: '3'
+      },
+      {
+        type: '4,0,0',
+        content: '4'
+      },
+      {
+        type: '5,0,0',
+        content: '5'
+      },
+      {
+        type: '6,0,0',
+        content: '6'
+      },
+      {
+        type: '7,0,0',
+        content: '7'
+      },
+      {
+        type: '8,0,0',
+        content: '8'
+      },
+      {
+        type: '9,0,0',
+        content: '9'
+      },
+      {
+        type: '10,0,0',
+        content: '10'
+      },
     ]
   },
   // question #3
   {
-    question: 'question #3',
+    question: 'axe #3',
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Red,A',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '1,0,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '2,0,0',
+        content: '2'
       },
       {
-        type: 'S,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '3,0,0',
+        content: '3'
+      },
+      {
+        type: '4,0,0',
+        content: '4'
+      },
+      {
+        type: '5,0,0',
+        content: '5'
+      },
+      {
+        type: '6,0,0',
+        content: '6'
+      },
+      {
+        type: '7,0,0',
+        content: '7'
+      },
+      {
+        type: '8,0,0',
+        content: '8'
+      },
+      {
+        type: '9,0,0',
+        content: '9'
+      },
+      {
+        type: '10,0,0',
+        content: '10'
+      },
     ]
   },
   // question #4
   {
-    question: "question #4",
+    question: "axe #4",
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,1,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,2,0',
+        content: '2'
       },
       {
-        type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,3,0',
+        content: '3'
+      },
+      {
+        type: '0,4,0',
+        content: '4'
+      },
+      {
+        type: '0,5,0',
+        content: '5'
+      },
+      {
+        type: '0,6,0',
+        content: '6'
+      },
+      {
+        type: '0,7,0',
+        content: '7'
+      },
+      {
+        type: '0,8,0',
+        content: '8'
+      },
+      {
+        type: '0,9,0',
+        content: '9'
+      },
+      {
+        type: '0,10,0',
+        content: '10'
+      },
     ]
   },
   // question #5
   {
-    question: 'question #5',
+    question: 'axe #5',
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Brown,C',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,1,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,2,0',
+        content: '2'
       },
       {
-        type: 'T,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,3,0',
+        content: '3'
+      },
+      {
+        type: '0,4,0',
+        content: '4'
+      },
+      {
+        type: '0,5,0',
+        content: '5'
+      },
+      {
+        type: '0,6,0',
+        content: '6'
+      },
+      {
+        type: '0,7,0',
+        content: '7'
+      },
+      {
+        type: '0,8,0',
+        content: '8'
+      },
+      {
+        type: '0,9,0',
+        content: '9'
+      },
+      {
+        type: '0,10,0',
+        content: '10'
+      },
     ]
   },
   // question #6
   {
-    question: 'question #6',
+    question: 'axe #6',
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,1,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,2,0',
+        content: '2'
       },
       {
-        type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,3,0',
+        content: '3'
+      },
+      {
+        type: '0,4,0',
+        content: '4'
+      },
+      {
+        type: '0,5,0',
+        content: '5'
+      },
+      {
+        type: '0,6,0',
+        content: '6'
+      },
+      {
+        type: '0,7,0',
+        content: '7'
+      },
+      {
+        type: '0,8,0',
+        content: '8'
+      },
+      {
+        type: '0,9,0',
+        content: '9'
+      },
+      {
+        type: '0,10,0',
+        content: '10'
+      },
     ]
   },
   // question #7
   {
-    question: 'question #7',
+    question: 'axe #7',
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,0,1',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,0,2',
+        content: '2'
       },
       {
-        type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,0,3',
+        content: '3'
+      },
+      {
+        type: '0,0,4',
+        content: '4'
+      },
+      {
+        type: '0,0,5',
+        content: '5'
+      },
+      {
+        type: '0,0,6',
+        content: '6'
+      },
+      {
+        type: '0,0,7',
+        content: '7'
+      },
+      {
+        type: '0,0,8',
+        content: '8'
+      },
+      {
+        type: '0,0,9',
+        content: '9'
+      },
+      {
+        type: '0,0,10',
+        content: '10'
+      },
     ]
   },
   // question #8
   {
-    question: 'question #8',
+    question: 'axe #8',
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,0,1',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,0,2',
+        content: '2'
       },
       {
-        type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,0,3',
+        content: '3'
+      },
+      {
+        type: '0,0,4',
+        content: '4'
+      },
+      {
+        type: '0,0,5',
+        content: '5'
+      },
+      {
+        type: '0,0,6',
+        content: '6'
+      },
+      {
+        type: '0,0,7',
+        content: '7'
+      },
+      {
+        type: '0,0,8',
+        content: '8'
+      },
+      {
+        type: '0,0,9',
+        content: '9'
+      },
+      {
+        type: '0,0,10',
+        content: '10'
+      },
     ]
   },
   // question #9
   {
-    question: 'question #9',
+    question: 'axe #9',
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '0,0,1',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '0,0,2',
+        content: '2'
       },
       {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '0,0,3',
+        content: '3'
+      },
+      {
+        type: '0,0,4',
+        content: '4'
+      },
+      {
+        type: '0,0,5',
+        content: '5'
+      },
+      {
+        type: '0,0,6',
+        content: '6'
+      },
+      {
+        type: '0,0,7',
+        content: '7'
+      },
+      {
+        type: '0,0,8',
+        content: '8'
+      },
+      {
+        type: '0,0,9',
+        content: '9'
+      },
+      {
+        type: '0,0,10',
+        content: '10'
+      },
     ]
   },
   // question #10
   {
-    question: 'question #10',
+    question: 'axe #10',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
+        //physique, mental, environnement
+        type: '1,0,0',
+        content: '1'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '2,0,0',
+        content: '2'
       },
       {
-        type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
+        type: '3,0,0',
+        content: '3'
+      },
+      {
+        type: '4,0,0',
+        content: '4'
+      },
+      {
+        type: '5,0,0',
+        content: '5'
+      },
+      {
+        type: '6,0,0',
+        content: '6'
+      },
+      {
+        type: '7,0,0',
+        content: '7'
+      },
+      {
+        type: '8,0,0',
+        content: '8'
+      },
+      {
+        type: '9,0,0',
+        content: '9'
+      },
+      {
+        type: '10,0,0',
+        content: '10'
+      },
     ]
-  }
+  },
 ]
 
 export default quizQuestions

@@ -26,9 +26,28 @@ class Question extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        Physique: 0,
-        Mental: 0,
-        Environnement: 0
+        Colors: {
+          Green: 10,
+          Brown: 10,
+          Blue: 10,
+          Red: 10
+        },
+        Letters: {
+          A: 10,
+          B: 10,
+          C: 10,
+          D: 10
+        },
+        Briggs: {
+          E: 5,
+          I: 5,
+          S: 5,
+          N: 5,
+          T: 5,
+          F: 5,
+          J: 5,
+          P: 5
+        }
       },
       resultBriggs: '',
       resultColors: '',
@@ -55,13 +74,13 @@ class Question extends Component {
       let colorsAnswer = answer_array[1]
       let lettersAnswer = answer_array[2]
       if (answer_array.length === 3) {
-        answersCount['Briggs'] += briggsAnswer
-        answersCount['Colors'] += colorsAnswer
-        answersCount['Letters'] += lettersAnswer
+        answersCount['Briggs'][briggsAnswer] += 1
+        answersCount['Colors'][colorsAnswer] += 1
+        answersCount['Letters'][lettersAnswer] += 1
       } else if (answer_array.length === 4) {
-        answersCount['Briggs'] -= 1
-        answersCount['Colors'] -= 1
-        answersCount['Letters'] -= 1
+        answersCount['Briggs'][briggsAnswer] -= 1
+        answersCount['Colors'][colorsAnswer] -= 1
+        answersCount['Letters'][lettersAnswer] -= 1
       }
       return answersCount
     }
@@ -100,10 +119,10 @@ class Question extends Component {
   getBriggsResults() {
     const answerCount = this.state.answersCount
     const briggsAnswer = answerCount['Briggs']
-    //const answersCountKeysBriggs = Object.keys(briggsAnswer)
-    //const answersCountValuesBriggs = answersCountKeysBriggs.map(key => briggsAnswer[key])
-    //let briggsType = ''
-    /* if (briggsAnswer.E >= briggsAnswer.I) {
+    const answersCountKeysBriggs = Object.keys(briggsAnswer)
+    const answersCountValuesBriggs = answersCountKeysBriggs.map(key => briggsAnswer[key])
+    let briggsType = ''
+    if (briggsAnswer.E >= briggsAnswer.I) {
       briggsType += 'E'
     } else briggsType += 'I'
     if (briggsAnswer.S >= briggsAnswer.N) {
@@ -114,28 +133,26 @@ class Question extends Component {
     } else briggsType += 'F'
     if (briggsAnswer.J >= briggsAnswer.P) {
       briggsType += 'J'
-    } else briggsType += 'P' */
-    return briggsAnswer
+    } else briggsType += 'P'
+    return briggsType
   }
 
   getColorsResults() {
     const answersCount = this.state.answersCount
     const colorsAnswer = answersCount['Colors']
-    //const answersCountKeysColors = Object.keys(colorsAnswer)
-    //const answersCountValuesColors = answersCountKeysColors.map(key => colorsAnswer[key])
-    //const maxAnswerCountColors = Math.max.apply(null, answersCountValuesColors)
-    return colorsAnswer
-    //answersCountKeysColors.filter(key => colorsAnswer[key] === maxAnswerCountColors)
+    const answersCountKeysColors = Object.keys(colorsAnswer)
+    const answersCountValuesColors = answersCountKeysColors.map(key => colorsAnswer[key])
+    const maxAnswerCountColors = Math.max.apply(null, answersCountValuesColors)
+    return answersCountKeysColors.filter(key => colorsAnswer[key] === maxAnswerCountColors)
   }
 
   getLettersResults() {
     const answersCount = this.state.answersCount
     const lettersAnswer = answersCount['Letters']
-    //const answersCountKeysLetters = Object.keys(lettersAnswer)
-    //const answersCountValuesLetters = answersCountKeysLetters.map(key => lettersAnswer[key])
-    //const maxAnswerCountLetters = Math.max.apply(null, answersCountValuesLetters)
-    return lettersAnswer
-    //answersCountKeysLetters.filter(key => lettersAnswer[key] === maxAnswerCountLetters)
+    const answersCountKeysLetters = Object.keys(lettersAnswer)
+    const answersCountValuesLetters = answersCountKeysLetters.map(key => lettersAnswer[key])
+    const maxAnswerCountLetters = Math.max.apply(null, answersCountValuesLetters)
+    return answersCountKeysLetters.filter(key => lettersAnswer[key] === maxAnswerCountLetters)
   }
 
   // ===========================================================================
